@@ -1,0 +1,641 @@
+{
+	"log": {
+		"version": "1.2",
+		"creator": {
+			"name": "Insomnia REST Client",
+			"version": "insomnia.desktop.app:v2022.5.1"
+		},
+		"entries": [
+			{
+				"startedDateTime": "2022-09-14T20:41:41.582Z",
+				"time": 17.116,
+				"request": {
+					"method": "PUT",
+					"url": "http://localhost:8080/tasks/3",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "{\n\t\"description\": \"Preencher Forms da avaliações\",\n\t\"done\": false\n}",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "147"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"93-F9Oy6BsyBrT7sIJDHv3O/n305uo\""
+						},
+						{
+							"name": "Date",
+							"value": "Wed, 31 Aug 2022 00:58:20 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 147,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"id\":3,\"description\":\"Preencher Forms da avaliações\",\"done\":false,\"createdAt\":\"2022-08-30T23:57:38.751Z\",\"updatedAt\":\"2022-08-31T00:58:20.397Z\"}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 17.116,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "PUT/AtualizarTarefa3"
+			},
+			{
+				"startedDateTime": "2022-09-14T20:41:41.582Z",
+				"time": 0,
+				"request": {
+					"method": "PUT",
+					"url": "http://localhost:8080/tasks/3",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "{\n\t\"description\": \"Preencher Forms da avaliações\",\n\t\"done\": false\n}",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 0,
+					"statusText": "",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [],
+					"content": {
+						"size": 0,
+						"mimeType": ""
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 0,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "PUT/AtualizarTarefa3"
+			},
+			{
+				"startedDateTime": "2022-09-14T20:41:41.582Z",
+				"time": 12.308,
+				"request": {
+					"method": "DELETE",
+					"url": "http://localhost:8080/tasks/5",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [],
+					"queryString": [],
+					"postData": {
+						"mimeType": "",
+						"text": "",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Content-Type",
+							"value": "text/html; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "14"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"e-LVoacatXgMy7p4lJ4QEDUIp3Lu0\""
+						},
+						{
+							"name": "Date",
+							"value": "Wed, 31 Aug 2022 00:52:50 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 14,
+						"mimeType": "text/html; charset=utf-8",
+						"text": "Tarefa apagada"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 12.308,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Delete/Tarefa5Apagada"
+			},
+			{
+				"startedDateTime": "2022-09-14T20:41:41.582Z",
+				"time": 0,
+				"request": {
+					"method": "DELETE",
+					"url": "http://localhost:8080/tasks/5",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [],
+					"queryString": [],
+					"postData": {
+						"mimeType": "",
+						"text": "",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 0,
+					"statusText": "",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [],
+					"content": {
+						"size": 0,
+						"mimeType": ""
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 0,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Delete/Tarefa5Apagada"
+			},
+			{
+				"startedDateTime": "2022-09-14T20:41:41.582Z",
+				"time": 41.02,
+				"request": {
+					"method": "POST",
+					"url": "http://localhost:8080/tasks",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "{\n\t\"description\": \"Revisão do projeto\",\n\t\"done\": true\n}",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "134"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"86-iwx6gnXiQY85jmy/KwCFiNgauQw\""
+						},
+						{
+							"name": "Date",
+							"value": "Wed, 31 Aug 2022 00:50:05 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 134,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"id\":6,\"description\":\"Revisão do projeto\",\"done\":true,\"updatedAt\":\"2022-08-31T00:50:05.376Z\",\"createdAt\":\"2022-08-31T00:50:05.376Z\"}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 41.02,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Post/NovaTarefa6"
+			},
+			{
+				"startedDateTime": "2022-09-14T20:41:41.582Z",
+				"time": 0,
+				"request": {
+					"method": "POST",
+					"url": "http://localhost:8080/tasks",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "{\n\t\"description\": \"Revisão do projeto\",\n\t\"done\": true\n}",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 0,
+					"statusText": "",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [],
+					"content": {
+						"size": 0,
+						"mimeType": ""
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 0,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Post/NovaTarefa6"
+			},
+			{
+				"startedDateTime": "2022-09-14T20:41:41.582Z",
+				"time": 92.148,
+				"request": {
+					"method": "GET",
+					"url": "http://localhost:8080/tasks/4",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [],
+					"queryString": [],
+					"postData": {
+						"mimeType": "",
+						"text": "",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "143"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"8f-ic4O9ZlVo+XbQho3EAEbO2hyzjY\""
+						},
+						{
+							"name": "Date",
+							"value": "Wed, 31 Aug 2022 00:42:40 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 143,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"task\":{\"id\":4,\"description\":\"Fazer Projeto Final\",\"done\":true,\"createdAt\":\"2022-08-30T23:57:38.751Z\",\"updatedAt\":\"2022-08-30T23:57:38.751Z\"}}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 92.148,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Get/porIDtarefa4"
+			},
+			{
+				"startedDateTime": "2022-09-14T20:41:41.582Z",
+				"time": 0,
+				"request": {
+					"method": "GET",
+					"url": "http://localhost:8080/tasks/4",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [],
+					"queryString": [],
+					"postData": {
+						"mimeType": "",
+						"text": "",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 0,
+					"statusText": "",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [],
+					"content": {
+						"size": 0,
+						"mimeType": ""
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 0,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Get/porIDtarefa4"
+			},
+			{
+				"startedDateTime": "2022-09-14T20:41:41.582Z",
+				"time": 6.087000000000001,
+				"request": {
+					"method": "GET",
+					"url": "http://localhost:8080/tasks",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "700"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"2bc-eKI0f71ps9F3zZAbh0p9FjF0HJg\""
+						},
+						{
+							"name": "Date",
+							"value": "Wed, 31 Aug 2022 00:58:25 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 700,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"allTasks\":[{\"id\":1,\"description\":\"Assistir os vídeos\",\"done\":false,\"createdAt\":\"2022-08-30T23:57:38.751Z\",\"updatedAt\":\"2022-08-30T23:57:38.751Z\"},{\"id\":2,\"description\":\"Limpar o tapete\",\"done\":false,\"createdAt\":\"2022-08-30T23:57:38.751Z\",\"updatedAt\":\"2022-08-30T23:57:38.751Z\"},{\"id\":3,\"description\":\"Preencher Forms da avaliações\",\"done\":false,\"createdAt\":\"2022-08-30T23:57:38.751Z\",\"updatedAt\":\"2022-08-31T00:58:20.397Z\"},{\"id\":4,\"description\":\"Fazer Projeto Final\",\"done\":true,\"createdAt\":\"2022-08-30T23:57:38.751Z\",\"updatedAt\":\"2022-08-30T23:57:38.751Z\"},{\"id\":6,\"description\":\"Revisão do projeto\",\"done\":true,\"createdAt\":\"2022-08-31T00:50:05.376Z\",\"updatedAt\":\"2022-08-31T00:50:05.376Z\"}]}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 6.087000000000001,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Get/ListadeTarefas"
+			},
+			{
+				"startedDateTime": "2022-09-14T20:41:41.582Z",
+				"time": 0,
+				"request": {
+					"method": "GET",
+					"url": "http://localhost:8080/tasks",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 0,
+					"statusText": "",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [],
+					"content": {
+						"size": 0,
+						"mimeType": ""
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 0,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Get/ListadeTarefas"
+			}
+		]
+	}
+}
